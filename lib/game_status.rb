@@ -27,7 +27,7 @@ end
 
 def winner(board)
     if won?(board)
-       won?(board)[1]
+       board[won?(board)[1]]
 
   #  board[won?(board)]. do |winner|
   #    winner == "X"
