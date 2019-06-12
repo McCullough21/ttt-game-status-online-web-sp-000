@@ -33,7 +33,7 @@ def winner(board)
   #    winner == "X"
   #
   #    winner == "O"
-  end
+     end
+ end
 end
-#   end
 # end
