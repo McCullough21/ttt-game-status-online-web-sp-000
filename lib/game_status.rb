@@ -28,7 +28,7 @@ end
 def winner(board)
     won?(board).each do |winner|
       return winner 
-     
+
   #  board[won?(board)]. do |winner|
   #    winner == "X"
   #
