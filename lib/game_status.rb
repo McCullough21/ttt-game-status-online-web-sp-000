@@ -26,14 +26,13 @@ def over?(board)
 end
 
 def winner(board)
-    won?(board).detect do |winner|
-      if board[winner] == "X"
+    if won?(board)
+       won?(board)[1]
 
   #  board[won?(board)]. do |winner|
   #    winner == "X"
   #
   #    winner == "O"
-     end
- end
+    end
 end
 # end
