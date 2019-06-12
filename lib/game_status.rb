@@ -26,7 +26,7 @@ def over?(board)
 end
 
 def winner(board)
-    won?(board).each do |winner|
+    won?(board).detect do |winner|
       board[winner] 
 
   #  board[won?(board)]. do |winner|
